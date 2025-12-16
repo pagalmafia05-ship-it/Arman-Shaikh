@@ -1,6 +1,23 @@
 <!doctype html>
 <html lang="hi">
 <head>
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '823048227229500');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=823048227229500&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Deepak Wadhwa – Landing</title>
@@ -207,13 +224,23 @@
 
       <div class="cta">
         <!-- Put your Telegram invite link in href -->
-        <a class="btn-telegram" href="https://t.me/gpay_version" target="_blank" rel="noopener">
-          <!-- Inline telegram icon (simple) -->
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-            <path d="M22 4L2 11l5 2 2 6 3-4 6 4 4-16z" fill="white"/>
-          </svg>
-          Join on Telegram
-        </a>
+        <a <!-- Telegram Lead Button -->
+<a href="https://t.me/YourTelegramUsername" 
+   target="_blank" 
+   onclick="fbq('track','Lead');"
+   style="
+     display:inline-block;
+     padding:14px 28px;
+     background:#0088cc;
+     color:#ffffff;
+     font-size:16px;
+     font-weight:600;
+     border-radius:8px;
+     text-decoration:none;
+     box-shadow:0 4px 10px rgba(0,0,0,0.3);
+   ">
+🚀 Join Telegram Now
+</a>
       </div>
 
       <!-- Features -->
@@ -226,28 +253,4 @@
 
     <!-- Testimonials header -->
     <div class="section-title">🏆 Our Members Speak</div>
-
-    <!-- Testimonials -->
-    <div class="testimonials">
-      <div class="testimonial">
-        <div class="content">“आपके Insights से मुझे पिछले महीने ₹50,000 का फायदा हुआ! यह सबसे अच्छा फ्री चैनल है।” 
-          <span class="author">— Riya S.</span>
-        </div>
-      </div>
-
-      <div class="testimonial">
-        <div class="content">“रोज़ाना के Market Analysis बहुत सटीक होते हैं। मैंने आपसे बहुत कुछ सीखा है।” 
-          <span class="author">— Aman K.</span>
-        </div>
-      </div>
-
-      <div class="testimonial">
-        <div class="content">“मैंने 300+ चैनल देखे हैं, लेकिन आपके कंटेंट की क्वालिटी और टाइमिंग बेस्ट है।” 
-          <span class="author">— Praveen D.</span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</body>
-</html>
+  </html>
